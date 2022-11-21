@@ -15,6 +15,7 @@ Para mais informações acessar a [Wiki](https://github.com/1cgeo/auth_server/wi
 ## Requisitos para sincronização com serviço LDAP local (existente no SPED).
 
 1. Certifique-se que o serviço LDAP do SPED está aberto para a serviço de autenticação:
+
     Executar no computador do serviço LDAP:
     ```
     $ nano /etc/default/slapd # Editar:
@@ -31,6 +32,7 @@ Para mais informações acessar a [Wiki](https://github.com/1cgeo/auth_server/wi
     ```
 
 2. Autorizar a pesquisa de mais de 500 usuários:
+
     Executar no computador do serviço LDAP:
     ```
     $ nano sizelimit.ldif # Adicionar o seguinte conteúdo
